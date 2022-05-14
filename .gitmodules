@@ -19,3 +19,9 @@
 [submodule "31-digital-logic-MattEngler7"]
 	path = 31-digital-logic-MattEngler7
 	url = git@github.com:COMP122/31-digital-logic-MattEngler7.git
+[submodule "30-quiz-digital-logic-MattEngler7"]
+	path = 30-quiz-digital-logic-MattEngler7
+	url = git@github.com:COMP122/30-quiz-digital-logic-MattEngler7.git
+[submodule "42-conversions-MattEngler7"]
+	path = 42-conversions-MattEngler7
+	url = git@github.com:COMP122/42-conversions-MattEngler7.git
