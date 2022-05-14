@@ -1,0 +1,3 @@
+[submodule "classes/comp122/class-material"]
+	path = classes/comp122/class-material
+	url = git@github.com:COMP122/comp122-s22.git
