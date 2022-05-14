@@ -1,1 +1,0 @@
-class-material/administrative/README.md
