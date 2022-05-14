@@ -16,3 +16,6 @@
 [submodule "01-first-assignment-MattEngler7"]
 	path = 01-first-assignment-MattEngler7
 	url = git@github.com:COMP122/01-first-assignment-MattEngler7.git
+[submodule "31-digital-logic-MattEngler7"]
+	path = 31-digital-logic-MattEngler7
+	url = git@github.com:COMP122/31-digital-logic-MattEngler7.git
