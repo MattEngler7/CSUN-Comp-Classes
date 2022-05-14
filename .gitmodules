@@ -13,3 +13,6 @@
 [submodule "classes/comp122/deliverables/42-conversions-MattEngler7"]
 	path = classes/comp122/deliverables/42-conversions-MattEngler7
 	url = https://github.com/COMP122/42-conversions-MattEngler7
+[submodule "01-first-assignment-MattEngler7"]
+	path = 01-first-assignment-MattEngler7
+	url = git@github.com:COMP122/01-first-assignment-MattEngler7.git
