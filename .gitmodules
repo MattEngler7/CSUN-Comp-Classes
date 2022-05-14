@@ -1,3 +1,6 @@
 [submodule "classes/comp122/class-material"]
 	path = classes/comp122/class-material
 	url = git@github.com:COMP122/comp122-s22.git
+[submodule "mars-mips"]
+	path = mars-mips
+	url = https://github.com/COMP122/mars-mips.git
