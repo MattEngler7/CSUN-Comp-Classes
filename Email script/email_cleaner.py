@@ -97,13 +97,14 @@ for email_id in email_ids:
 
     # Calculate the difference in days
     difference = now - date
-    difference_days = int(difference.total_seconds() / (24 * 3600))
+    #difference_days = int(difference.total_seconds() / (24 * 3600))
+    difference_days = int(difference.total_seconds())
 
     # Convert the difference into a date object
     d = datetime.now() - timedelta(days=difference_days)
 
     # Query the API for all unread emails
-    query = "is:unread before:" + d.strftime("%Y/%m/%d")
+    query = "is:unread before:" #+ d.strftime("%Y/%m/%d")
     
     results = service.users().messages().list(userId='me', q=query).execute()
 
@@ -113,5 +114,6 @@ for email_id in email_ids:
     for message in messages:
         service.users().messages().trash(userId='me', id=message['id']).execute()
         print(f'Deleted email from {sender} with ID: {email_id}')
+        #sender = ''
     else:
         print(f"No emails for me to delete!")
